@@ -85,18 +85,22 @@ function canObjectParry(projectilePosition, objectPosition, projectileVelocity, 
 	local conditions = {
 		(Anticipate and distanceToIntercept <= 75);
         (distanceToIntercept >= 35 and distanceToIntercept <= 50 and timeToIntercept <= 0.6);
+        (distanceToIntercept >= 35 and distanceToIntercept <= 50 and timeToIntercept <= 0.8);
 		(distanceToIntercept >= 25 and distanceToIntercept <= 40 and timeToIntercept <= 0.6);
 		(distanceToIntercept >= 15 and distanceToIntercept <= 30 and timeToIntercept <= 0.5);
 		(distanceToIntercept >= 15 and distanceToIntercept <= 30 and timeToIntercept <= 0.4);
 		(distanceToIntercept >= 50 and distanceToIntercept <= 75 and timeToIntercept >= 0.6 and timeToIntercept <= 0.75);
+		(distanceToIntercept >= 50 and distanceToIntercept <= 75 and timeToIntercept >= 0.8 and timeToIntercept <= 1);
 		(distanceToIntercept >= 50 and distanceToIntercept <= 75 and timeToIntercept >= 0.5 and timeToIntercept <= 0.70);
 		(distanceToIntercept >= 50 and distanceToIntercept <= 75 and timeToIntercept >= 0.5 and timeToIntercept <= 0.65);
 		(distanceToIntercept >= 50 and distanceToIntercept <= 75 and timeToIntercept >= 0.5 and timeToIntercept <= 0.60);
 		(distanceToIntercept <= 35 and timeToIntercept <= 0.5);
+		(distanceToIntercept <= 35 and timeToIntercept <= 0.8);
 		(distanceToIntercept <= 35 and timeToIntercept <= 0.4);
 		(distanceToIntercept <= 35 and timeToIntercept <= 0.3);
 		(distanceToIntercept <= 35 and timeToIntercept <= 0.2);
 		(distanceToIntercept <= 12.5 and timeToIntercept >= 0.5 and timeToIntercept <= 0.75);
+		(distanceToIntercept <= 12.5 and timeToIntercept >= 0.6 and timeToIntercept <= 0.9);
 		(distanceToIntercept <= 12.5 and timeToIntercept >= 0.5 and timeToIntercept <= 0.70);
 		(distanceToIntercept <= 12.5 and timeToIntercept >= 0.4 and timeToIntercept <= 0.65);
 		(distanceToIntercept <= 12.5 and timeToIntercept >= 0.4 and timeToIntercept <= 0.60);
@@ -108,6 +112,8 @@ function canObjectParry(projectilePosition, objectPosition, projectileVelocity, 
 		(distanceToIntercept <= 0.010 and timeToIntercept <= 0.30);
 		(distanceToIntercept <= 0.005 and timeToIntercept <= 0.20);
 		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 0.5);
+		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 0.8);
+		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 1);
 		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 0.4);
 	}
 	
