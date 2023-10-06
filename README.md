@@ -115,6 +115,8 @@ function canObjectParry(projectilePosition, objectPosition, projectileVelocity, 
 		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 0.8);
 		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 1);
 		(distanceToIntercept >= 75 and distanceToIntercept <= 100 and timeToIntercept <= 0.4);
+		(distanceToIntercept <= 5
+		(distanceToIntercept <= 3
 	}
 	
 	local r
